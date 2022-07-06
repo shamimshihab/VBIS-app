@@ -106,7 +106,7 @@ function HomeScreen({ navigation }) {
             color="#f194ff"
             onPress={() => navigation.navigate("VbisSchedule")}
           >
-            <Text style={styles.buttonText}> Vbis Schedule </Text>
+            <Text style={styles.buttonText}>VBIS Schedule </Text>
           </Pressable>
         </View>
 
@@ -193,17 +193,18 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     height: "35%",
+    marginLeft: 20,
   },
 
   searchBar: {
-    marginRight: 40,
+    marginRight: 30,
     marginTop: 10,
 
-    width: 305,
+    width: 292,
     height: "7%",
     alignItems: "center",
     justifyContent: "center",
-    padding: 10,
+
     marginLeft: 40,
   },
 
@@ -213,18 +214,18 @@ const styles = StyleSheet.create({
     marginRight: 20,
     marginLeft: 140,
     marginBottom: 10,
-    width: 80,
-    height: 65,
+    width: 100,
+    height: 50,
     alignItems: "center",
     justifyContent: "center",
   },
   setting: {
     marginTop: 50,
     marginRight: 10,
-    marginLeft: 30,
+    marginLeft: 15,
     marginBottom: 10,
-    width: 55,
-    height: 60,
+    width: 50,
+    height: 50,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#d3d3d3",
@@ -234,10 +235,10 @@ const styles = StyleSheet.create({
   },
   tutorial: {
     marginTop: 50,
-    marginRight: 20,
+    marginRight: 45,
     marginBottom: 10,
     width: 90,
-    height: 60,
+    height: 50,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#d3d3d3",
@@ -251,12 +252,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffffff",
     alignItems: "center",
     justifyContent: "center",
-    height: "15%",
+    height: "16%",
 
-    marginLeft: 150,
-    marginRight: 40,
-    padding: 20,
-    marginTop: 10,
+    marginLeft: 20,
   },
 
   button2: {
@@ -264,7 +262,7 @@ const styles = StyleSheet.create({
     marginRight: 5,
     marginLeft: 5,
 
-    width: "70%",
+    width: 140,
 
     height: "95%",
 
@@ -301,7 +299,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: "71.5%",
     padding: 20,
-    marginLeft: 45,
   },
 
   contactContainer: {
@@ -311,18 +308,18 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: "18%",
     width: "100%",
-    padding: 2,
-    marginLeft: 35,
+
+    marginLeft: 30,
     backgroundColor: "#ffffff",
     marginTop: 5,
   },
   button4: {
-    marginTop: 30,
-    marginLeft: 10,
+    marginTop: 28,
+    marginLeft: 5,
     marginRight: 45,
     marginBottom: 100,
-    width: 288,
-    height: "55%",
+    width: 292,
+    height: "48%",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#d3d3d3",
